@@ -1,12 +1,9 @@
 {
-  "homepage": "https://idkwhyi.github.io/ArtPortfolio/",
   "name": "artportfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "vite build && gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
